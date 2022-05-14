@@ -1,0 +1,272 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "logineRegistro.feature",
+    "elements": [
+      {
+        "id": "login;validar-que-novo-usuario-e-registrado",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Validar que novo usuario e Registrado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que eu acesso o site",
+            "result": {
+              "status": "passed",
+              "duration": 4915000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "clico em Sign In",
+            "result": {
+              "status": "passed",
+              "duration": 3088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "informo meu email em  Create an Account",
+            "result": {
+              "status": "passed",
+              "duration": 622000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clico no botao Create an Account",
+            "result": {
+              "status": "passed",
+              "duration": 4296000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "valido que minha conta foi criada",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;validar-mensagem-de-email-ja-cadastrado",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Validar mensagem de email ja cadastrado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "que eu acesso o site",
+            "result": {
+              "status": "passed",
+              "duration": 2959000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "clico em Sign In",
+            "result": {
+              "status": "passed",
+              "duration": 3224000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "informo meu email em  Create an Account",
+            "result": {
+              "status": "passed",
+              "duration": 598000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "clico no botao Create an Account",
+            "result": {
+              "status": "passed",
+              "duration": 4325000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "valido que surge a mensagem dizendo que uma conta ja foi registrada com esse email",
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;validar-mensagem-de-senha-incorreta",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Validar mensagem de senha incorreta",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "que eu acesso o site",
+            "result": {
+              "status": "passed",
+              "duration": 2720000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "clico em Sign In",
+            "result": {
+              "status": "passed",
+              "duration": 2180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "informo meu email de login",
+            "result": {
+              "status": "passed",
+              "duration": 648000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "informo senha de login incorreta",
+            "result": {
+              "status": "passed",
+              "duration": 516000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "clico no botao Sign in",
+            "result": {
+              "status": "passed",
+              "duration": 3801000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "valido que surge uma mensagem de erro informando que a senha inserida e invalida",
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;validar-login-com-sucesso",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Validar login com sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "que eu acesso o site",
+            "result": {
+              "status": "passed",
+              "duration": 5297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "clico em Sign In",
+            "result": {
+              "status": "passed",
+              "duration": 3167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "informo meu email de login",
+            "result": {
+              "status": "passed",
+              "duration": 573000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "informo minha senha",
+            "result": {
+              "status": "passed",
+              "duration": 423000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "clico no botao Sign in",
+            "result": {
+              "status": "passed",
+              "duration": 2680000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "valido que o login foi realizado com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
